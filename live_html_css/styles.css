@@ -1,0 +1,45 @@
+:root{
+    --spacing: 28px;
+
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    overflow: hidden;
+}
+
+header, main, footer{
+    margin: var(--spacing)
+}
+
+header{
+    display: flex;
+}
+
+header > div{
+    margin-right: var(--spacing);
+}
+
+header > button{
+    margin-left: auto;
+}
+
+section.categories{
+}
+
+section.categories ul{
+    display: flex;
+}
+
+section.categories li{
+    margin:0 calc(var(--spacing) / 2);
+}
+
+article{
+
+}
+
+article > div
